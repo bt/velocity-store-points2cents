@@ -2,6 +2,12 @@
 
 This is a Tampermonkey script for Google Chrome (and potentially Firefox using Greasemonkey; but untested) to add "Australian Dollar values" to the Velocity Rewards Store.
 
+# How to Install?
+
+1. Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (or equivalent)
+2. [Click here](https://github.com/bt/velocity-store-points2cents/raw/master/Velocity%20Store%20-%20Points%20to%20Cents.user.js)
+3. Click Install
+
 # But, how do you calculate the value?
 
 Currently, the script is hardcoded with a value of $0.014/point; we then extract the points value from the store and multiply by this cent/point value. This value is the average of how much people are "gifting" points to each other on various Australian forums.
